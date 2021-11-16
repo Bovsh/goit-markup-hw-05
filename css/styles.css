@@ -411,11 +411,37 @@ flex-wrap: wrap;
 }
 .flex-services-item {
     margin-right: 30px;
+    position: relative;
    
 }
 .flex-services-item:last-child {
     margin-right: 0px;
 }
+
+.our-services {
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+.services-image {
+    
+}
+.text-srvices {
+    ont-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-transform:uppercase;
+    
+}
+
 
 .flex-team {
     display: flex;
@@ -653,10 +679,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--second-text-color)
+
 }
 
 .footer-mail-tel:focus, .footer-mail-tel:hover {color: var(--accent-color);}
-   
+.footer-mail-tel:hover {cursor: pointer;}
  
 .box {
 
